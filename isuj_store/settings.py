@@ -55,7 +55,7 @@ ROOT_URLCONF = 'isuj_store.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['/Users/ISMA/Documents/17035/isuj_store/isuj_store/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
