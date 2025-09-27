@@ -8,3 +8,5 @@ class ProductoAdmin(admin.ModelAdmin):
     search_fields = ('nombre', 'categoria')
     list_filter = ('categoria',)
 admin.site.register(Producto, ProductoAdmin)
+admin.site.register(Categoria)
+from .models import Categoria
